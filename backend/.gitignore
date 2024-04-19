@@ -1,0 +1,8 @@
+node_modules
+*.txt
+*.env
+docs
+*.rest
+/public
+test.*
+.vscode
