@@ -15,7 +15,7 @@ function Navbar() {
     const dataentryId=2;
     const dataexitId=3;
 
-    const [currentView, setCurrentView] = useState(0);
+    const [currentView, setCurrentView] = useState(analyticsId);
 
     
     return (

@@ -3,7 +3,7 @@ const Item = require('../models/item');
 
 
 // route : /processing/data => POST
-exports.getCompartments = async (req, res, next) => {
+exports.getCategories = async (req, res, next) => {
     try {
         const compartmentsList = await Compartment.findAll({
             attributes : ['comp_id','comp_name', 'comp_cat'],
@@ -46,6 +46,15 @@ exports.getDemandData = async (req, res, next) => {
 
         if(!comp_id || !item_id) throw new Error("Please specify appropriate data for either compartment or items ");
 
+        const item = await Item.findOne({
+            attributes : ["item_name", "item_category"],
+            where : {
+                admin_id : admin_id,
+                comp_id : comp_id,
+                item_id : item_id
+            }
+        });
+        console.log(item.dataValues);
     } catch (err) {
         next(err);
     }

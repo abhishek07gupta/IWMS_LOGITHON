@@ -3,10 +3,10 @@ const router = express.Router();
 const analyticsController = require('../controller/analytics')
 const parseQueryString = require('../middleware/parseQueryString')
 
-// route : /analytics/compartments?adminId => GET
-router.get('/compartments', parseQueryString, analyticsController.getCompartments);
+// route : /analytics/categories?adminId => GET
+router.get('/categories', parseQueryString, analyticsController.getCategories);
 
-router.get('/compartment/:comp_id', parseQueryString, analyticsController.getItems);
+router.get('/category/:comp_id', parseQueryString, analyticsController.getItems);
 
 router.get('/demanddata', parseQueryString, analyticsController.getDemandData);
 
