@@ -2,7 +2,7 @@ const {DataTypes} = require('sequelize');
 const sequelize = require('../util/database');
 
 const Admin = sequelize.define('admin',{
-    id : { 
+    admin_id : { 
         type:DataTypes.INTEGER,
         primaryKey : true,
     },

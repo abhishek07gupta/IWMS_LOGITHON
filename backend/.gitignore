@@ -6,3 +6,4 @@ docs
 /public
 test.*
 .vscode
+data
