@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const processingController = require('../controller/processing')
-const parseQueryString = require('../middleware/parseQueryString')
+const parseQueryString = require('../middleware/parseQueryString');
 
 // ---------------------------------- Multer Setup : 
 const multer = require('multer');// for "multipart/form-data"
@@ -29,5 +29,6 @@ const fileFilter = (req, file, cb) => {// only allows files with specific mimety
 // route : /processing/data?adminId => POST
 router.post('/data', parseQueryString, multer({storage:fileStorage, fileFilter:fileFilter}).any(),processingController.postData);
 
-router.get('/demand', parseQueryString, processingController.getDemandGraph)
+router.get('/demand', parseQueryString, processingController.getDemandGraph);
+
 module.exports = router;

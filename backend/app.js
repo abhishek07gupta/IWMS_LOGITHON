@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 
 // importing Routes 
+// const processing = require('./routes/processing');
+const analytics = require('./routes/analytics');
 
 // importing models 
 const sequelize = require('./util/database');
@@ -19,9 +21,10 @@ const Item = require('./models/item');
 const app = express();//and here express is a function.
 
 app.use(bodyParser.json());//important use case before any other middleware
-app.use(multer({storage:fileStorage, fileFilter:fileFilter}).any()); // For incoming inputs values
 
 // Routes
+// app.use('/processing', processing);
+app.use('/analytics', analytics);
 
 // error handler
 app.use((error, req, res, next) => {
@@ -30,7 +33,7 @@ app.use((error, req, res, next) => {
     res.status(status).json({ message: message });
 })
 
-sequelize.sync({force : true})
+sequelize.sync({alter : false})
     .then(synced => {
         app.listen(process.env.PORT);
     })
