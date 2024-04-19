@@ -55,6 +55,7 @@ exports.getDemandData = async (req, res, next) => {
             }
         });
         console.log(item.dataValues);
+        res.status(200).json({message:"asldkjf"});
     } catch (err) {
         next(err);
     }

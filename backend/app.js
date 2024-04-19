@@ -1,6 +1,7 @@
 // core modules/3rd party 
 const express = require('express');
 const bodyParser = require('body-parser');
+const corsControl = require('./middleware/corsControl')
 require('dotenv').config();
 
 // importing Routes 
@@ -20,6 +21,7 @@ const Item = require('./models/item');
 // working :
 const app = express();//and here express is a function.
 
+app.use(corsControl);
 app.use(bodyParser.json());//important use case before any other middleware
 
 // Routes
