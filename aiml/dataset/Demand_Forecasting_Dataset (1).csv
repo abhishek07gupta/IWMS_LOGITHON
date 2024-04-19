@@ -1,0 +1,385 @@
+Date,Category,Item,Demand
+2021-01-01,Daily Electric Appliances,Electric Kettle,275
+2021-01-01,Daily Electric Appliances,Toaster,367
+2021-01-01,Daily Electric Appliances,Microwave,347
+2021-01-01,Daily Electric Appliances,Blender,421
+2021-01-01,Daily Utility Products,Utility Knife,413
+2021-01-01,Daily Utility Products,Scissors,405
+2021-01-01,Daily Utility Products,Measuring Tape,219
+2021-01-01,Daily Utility Products,Screwdriver,300
+2021-01-01,Personal Care Products,Shampoo,201
+2021-01-01,Personal Care Products,Soap,303
+2021-01-01,Personal Care Products,Toothpaste,282
+2021-01-01,Personal Care Products,Hairbrush,358
+2021-01-01,Home Cleaning Supplies,Detergent,329
+2021-01-01,Home Cleaning Supplies,Mop,172
+2021-01-01,Home Cleaning Supplies,Dish Soap,378
+2021-01-01,Home Cleaning Supplies,Garbage Bags,91
+2021-02-01,Daily Electric Appliances,Electric Kettle,287
+2021-02-01,Daily Electric Appliances,Toaster,366
+2021-02-01,Daily Electric Appliances,Microwave,353
+2021-02-01,Daily Electric Appliances,Blender,193
+2021-02-01,Daily Utility Products,Utility Knife,86
+2021-02-01,Daily Utility Products,Scissors,499
+2021-02-01,Daily Utility Products,Measuring Tape,144
+2021-02-01,Daily Utility Products,Screwdriver,348
+2021-02-01,Personal Care Products,Shampoo,304
+2021-02-01,Personal Care Products,Soap,50
+2021-02-01,Personal Care Products,Toothpaste,440
+2021-02-01,Personal Care Products,Hairbrush,271
+2021-02-01,Home Cleaning Supplies,Detergent,117
+2021-02-01,Home Cleaning Supplies,Mop,337
+2021-02-01,Home Cleaning Supplies,Dish Soap,335
+2021-02-01,Home Cleaning Supplies,Garbage Bags,66
+2021-03-01,Daily Electric Appliances,Electric Kettle,332
+2021-03-01,Daily Electric Appliances,Toaster,312
+2021-03-01,Daily Electric Appliances,Microwave,283
+2021-03-01,Daily Electric Appliances,Blender,317
+2021-03-01,Daily Utility Products,Utility Knife,387
+2021-03-01,Daily Utility Products,Scissors,361
+2021-03-01,Daily Utility Products,Measuring Tape,431
+2021-03-01,Daily Utility Products,Screwdriver,349
+2021-03-01,Personal Care Products,Shampoo,373
+2021-03-01,Personal Care Products,Soap,70
+2021-03-01,Personal Care Products,Toothpaste,169
+2021-03-01,Personal Care Products,Hairbrush,320
+2021-03-01,Home Cleaning Supplies,Detergent,320
+2021-03-01,Home Cleaning Supplies,Mop,130
+2021-03-01,Home Cleaning Supplies,Dish Soap,497
+2021-03-01,Home Cleaning Supplies,Garbage Bags,423
+2021-04-01,Daily Electric Appliances,Electric Kettle,280
+2021-04-01,Daily Electric Appliances,Toaster,93
+2021-04-01,Daily Electric Appliances,Microwave,205
+2021-04-01,Daily Electric Appliances,Blender,408
+2021-04-01,Daily Utility Products,Utility Knife,265
+2021-04-01,Daily Utility Products,Scissors,454
+2021-04-01,Daily Utility Products,Measuring Tape,73
+2021-04-01,Daily Utility Products,Screwdriver,340
+2021-04-01,Personal Care Products,Shampoo,338
+2021-04-01,Personal Care Products,Soap,371
+2021-04-01,Personal Care Products,Toothpaste,328
+2021-04-01,Personal Care Products,Hairbrush,327
+2021-04-01,Home Cleaning Supplies,Detergent,491
+2021-04-01,Home Cleaning Supplies,Mop,118
+2021-04-01,Home Cleaning Supplies,Dish Soap,351
+2021-04-01,Home Cleaning Supplies,Garbage Bags,473
+2021-05-01,Daily Electric Appliances,Electric Kettle,330
+2021-05-01,Daily Electric Appliances,Toaster,392
+2021-05-01,Daily Electric Appliances,Microwave,323
+2021-05-01,Daily Electric Appliances,Blender,486
+2021-05-01,Daily Utility Products,Utility Knife,186
+2021-05-01,Daily Utility Products,Scissors,311
+2021-05-01,Daily Utility Products,Measuring Tape,275
+2021-05-01,Daily Utility Products,Screwdriver,392
+2021-05-01,Personal Care Products,Shampoo,300
+2021-05-01,Personal Care Products,Soap,132
+2021-05-01,Personal Care Products,Toothpaste,316
+2021-05-01,Personal Care Products,Hairbrush,112
+2021-05-01,Home Cleaning Supplies,Detergent,79
+2021-05-01,Home Cleaning Supplies,Mop,189
+2021-05-01,Home Cleaning Supplies,Dish Soap,208
+2021-05-01,Home Cleaning Supplies,Garbage Bags,377
+2021-06-01,Daily Electric Appliances,Electric Kettle,108
+2021-06-01,Daily Electric Appliances,Toaster,92
+2021-06-01,Daily Electric Appliances,Microwave,377
+2021-06-01,Daily Electric Appliances,Blender,203
+2021-06-01,Daily Utility Products,Utility Knife,360
+2021-06-01,Daily Utility Products,Scissors,168
+2021-06-01,Daily Utility Products,Measuring Tape,389
+2021-06-01,Daily Utility Products,Screwdriver,75
+2021-06-01,Personal Care Products,Shampoo,223
+2021-06-01,Personal Care Products,Soap,427
+2021-06-01,Personal Care Products,Toothpaste,181
+2021-06-01,Personal Care Products,Hairbrush,422
+2021-06-01,Home Cleaning Supplies,Detergent,389
+2021-06-01,Home Cleaning Supplies,Mop,299
+2021-06-01,Home Cleaning Supplies,Dish Soap,87
+2021-06-01,Home Cleaning Supplies,Garbage Bags,211
+2021-07-01,Daily Electric Appliances,Electric Kettle,494
+2021-07-01,Daily Electric Appliances,Toaster,414
+2021-07-01,Daily Electric Appliances,Microwave,267
+2021-07-01,Daily Electric Appliances,Blender,57
+2021-07-01,Daily Utility Products,Utility Knife,494
+2021-07-01,Daily Utility Products,Scissors,215
+2021-07-01,Daily Utility Products,Measuring Tape,134
+2021-07-01,Daily Utility Products,Screwdriver,404
+2021-07-01,Personal Care Products,Shampoo,322
+2021-07-01,Personal Care Products,Soap,223
+2021-07-01,Personal Care Products,Toothpaste,217
+2021-07-01,Personal Care Products,Hairbrush,83
+2021-07-01,Home Cleaning Supplies,Detergent,403
+2021-07-01,Home Cleaning Supplies,Mop,371
+2021-07-01,Home Cleaning Supplies,Dish Soap,251
+2021-07-01,Home Cleaning Supplies,Garbage Bags,137
+2021-08-01,Daily Electric Appliances,Electric Kettle,374
+2021-08-01,Daily Electric Appliances,Toaster,330
+2021-08-01,Daily Electric Appliances,Microwave,56
+2021-08-01,Daily Electric Appliances,Blender,403
+2021-08-01,Daily Utility Products,Utility Knife,420
+2021-08-01,Daily Utility Products,Scissors,305
+2021-08-01,Daily Utility Products,Measuring Tape,110
+2021-08-01,Daily Utility Products,Screwdriver,266
+2021-08-01,Personal Care Products,Shampoo,111
+2021-08-01,Personal Care Products,Soap,237
+2021-08-01,Personal Care Products,Toothpaste,171
+2021-08-01,Personal Care Products,Hairbrush,335
+2021-08-01,Home Cleaning Supplies,Detergent,289
+2021-08-01,Home Cleaning Supplies,Mop,78
+2021-08-01,Home Cleaning Supplies,Dish Soap,202
+2021-08-01,Home Cleaning Supplies,Garbage Bags,437
+2021-09-01,Daily Electric Appliances,Electric Kettle,199
+2021-09-01,Daily Electric Appliances,Toaster,312
+2021-09-01,Daily Electric Appliances,Microwave,134
+2021-09-01,Daily Electric Appliances,Blender,327
+2021-09-01,Daily Utility Products,Utility Knife,169
+2021-09-01,Daily Utility Products,Scissors,333
+2021-09-01,Daily Utility Products,Measuring Tape,460
+2021-09-01,Daily Utility Products,Screwdriver,498
+2021-09-01,Personal Care Products,Shampoo,416
+2021-09-01,Personal Care Products,Soap,437
+2021-09-01,Personal Care Products,Toothpaste,359
+2021-09-01,Personal Care Products,Hairbrush,343
+2021-09-01,Home Cleaning Supplies,Detergent,57
+2021-09-01,Home Cleaning Supplies,Mop,426
+2021-09-01,Home Cleaning Supplies,Dish Soap,386
+2021-09-01,Home Cleaning Supplies,Garbage Bags,189
+2021-10-01,Daily Electric Appliances,Electric Kettle,436
+2021-10-01,Daily Electric Appliances,Toaster,360
+2021-10-01,Daily Electric Appliances,Microwave,55
+2021-10-01,Daily Electric Appliances,Blender,323
+2021-10-01,Daily Utility Products,Utility Knife,300
+2021-10-01,Daily Utility Products,Scissors,431
+2021-10-01,Daily Utility Products,Measuring Tape,128
+2021-10-01,Daily Utility Products,Screwdriver,439
+2021-10-01,Personal Care Products,Shampoo,384
+2021-10-01,Personal Care Products,Soap,131
+2021-10-01,Personal Care Products,Toothpaste,283
+2021-10-01,Personal Care Products,Hairbrush,160
+2021-10-01,Home Cleaning Supplies,Detergent,158
+2021-10-01,Home Cleaning Supplies,Mop,80
+2021-10-01,Home Cleaning Supplies,Dish Soap,404
+2021-10-01,Home Cleaning Supplies,Garbage Bags,309
+2021-11-01,Daily Electric Appliances,Electric Kettle,178
+2021-11-01,Daily Electric Appliances,Toaster,399
+2021-11-01,Daily Electric Appliances,Microwave,350
+2021-11-01,Daily Electric Appliances,Blender,222
+2021-11-01,Daily Utility Products,Utility Knife,286
+2021-11-01,Daily Utility Products,Scissors,433
+2021-11-01,Daily Utility Products,Measuring Tape,165
+2021-11-01,Daily Utility Products,Screwdriver,495
+2021-11-01,Personal Care Products,Shampoo,304
+2021-11-01,Personal Care Products,Soap,50
+2021-11-01,Personal Care Products,Toothpaste,323
+2021-11-01,Personal Care Products,Hairbrush,463
+2021-11-01,Home Cleaning Supplies,Detergent,141
+2021-11-01,Home Cleaning Supplies,Mop,468
+2021-11-01,Home Cleaning Supplies,Dish Soap,278
+2021-11-01,Home Cleaning Supplies,Garbage Bags,237
+2021-12-01,Daily Electric Appliances,Electric Kettle,71
+2021-12-01,Daily Electric Appliances,Toaster,113
+2021-12-01,Daily Electric Appliances,Microwave,272
+2021-12-01,Daily Electric Appliances,Blender,151
+2021-12-01,Daily Utility Products,Utility Knife,195
+2021-12-01,Daily Utility Products,Scissors,88
+2021-12-01,Daily Utility Products,Measuring Tape,257
+2021-12-01,Daily Utility Products,Screwdriver,435
+2021-12-01,Personal Care Products,Shampoo,193
+2021-12-01,Personal Care Products,Soap,264
+2021-12-01,Personal Care Products,Toothpaste,287
+2021-12-01,Personal Care Products,Hairbrush,67
+2021-12-01,Home Cleaning Supplies,Detergent,286
+2021-12-01,Home Cleaning Supplies,Mop,487
+2021-12-01,Home Cleaning Supplies,Dish Soap,456
+2021-12-01,Home Cleaning Supplies,Garbage Bags,164
+2022-01-01,Daily Electric Appliances,Electric Kettle,225
+2022-01-01,Daily Electric Appliances,Toaster,244
+2022-01-01,Daily Electric Appliances,Microwave,317
+2022-01-01,Daily Electric Appliances,Blender,443
+2022-01-01,Daily Utility Products,Utility Knife,346
+2022-01-01,Daily Utility Products,Scissors,488
+2022-01-01,Daily Utility Products,Measuring Tape,485
+2022-01-01,Daily Utility Products,Screwdriver,97
+2022-01-01,Personal Care Products,Shampoo,310
+2022-01-01,Personal Care Products,Soap,444
+2022-01-01,Personal Care Products,Toothpaste,304
+2022-01-01,Personal Care Products,Hairbrush,184
+2022-01-01,Home Cleaning Supplies,Detergent,424
+2022-01-01,Home Cleaning Supplies,Mop,478
+2022-01-01,Home Cleaning Supplies,Dish Soap,378
+2022-01-01,Home Cleaning Supplies,Garbage Bags,442
+2022-02-01,Daily Electric Appliances,Electric Kettle,250
+2022-02-01,Daily Electric Appliances,Toaster,279
+2022-02-01,Daily Electric Appliances,Microwave,68
+2022-02-01,Daily Electric Appliances,Blender,52
+2022-02-01,Daily Utility Products,Utility Knife,247
+2022-02-01,Daily Utility Products,Scissors,271
+2022-02-01,Daily Utility Products,Measuring Tape,279
+2022-02-01,Daily Utility Products,Screwdriver,150
+2022-02-01,Personal Care Products,Shampoo,412
+2022-02-01,Personal Care Products,Soap,207
+2022-02-01,Personal Care Products,Toothpaste,205
+2022-02-01,Personal Care Products,Hairbrush,195
+2022-02-01,Home Cleaning Supplies,Detergent,492
+2022-02-01,Home Cleaning Supplies,Mop,445
+2022-02-01,Home Cleaning Supplies,Dish Soap,355
+2022-02-01,Home Cleaning Supplies,Garbage Bags,378
+2022-03-01,Daily Electric Appliances,Electric Kettle,394
+2022-03-01,Daily Electric Appliances,Toaster,53
+2022-03-01,Daily Electric Appliances,Microwave,162
+2022-03-01,Daily Electric Appliances,Blender,61
+2022-03-01,Daily Utility Products,Utility Knife,363
+2022-03-01,Daily Utility Products,Scissors,484
+2022-03-01,Daily Utility Products,Measuring Tape,193
+2022-03-01,Daily Utility Products,Screwdriver,491
+2022-03-01,Personal Care Products,Shampoo,181
+2022-03-01,Personal Care Products,Soap,424
+2022-03-01,Personal Care Products,Toothpaste,494
+2022-03-01,Personal Care Products,Hairbrush,473
+2022-03-01,Home Cleaning Supplies,Detergent,207
+2022-03-01,Home Cleaning Supplies,Mop,487
+2022-03-01,Home Cleaning Supplies,Dish Soap,117
+2022-03-01,Home Cleaning Supplies,Garbage Bags,106
+2022-04-01,Daily Electric Appliances,Electric Kettle,253
+2022-04-01,Daily Electric Appliances,Toaster,425
+2022-04-01,Daily Electric Appliances,Microwave,129
+2022-04-01,Daily Electric Appliances,Blender,351
+2022-04-01,Daily Utility Products,Utility Knife,140
+2022-04-01,Daily Utility Products,Scissors,129
+2022-04-01,Daily Utility Products,Measuring Tape,275
+2022-04-01,Daily Utility Products,Screwdriver,61
+2022-04-01,Personal Care Products,Shampoo,183
+2022-04-01,Personal Care Products,Soap,464
+2022-04-01,Personal Care Products,Toothpaste,236
+2022-04-01,Personal Care Products,Hairbrush,118
+2022-04-01,Home Cleaning Supplies,Detergent,365
+2022-04-01,Home Cleaning Supplies,Mop,82
+2022-04-01,Home Cleaning Supplies,Dish Soap,343
+2022-04-01,Home Cleaning Supplies,Garbage Bags,221
+2022-05-01,Daily Electric Appliances,Electric Kettle,175
+2022-05-01,Daily Electric Appliances,Toaster,366
+2022-05-01,Daily Electric Appliances,Microwave,95
+2022-05-01,Daily Electric Appliances,Blender,335
+2022-05-01,Daily Utility Products,Utility Knife,300
+2022-05-01,Daily Utility Products,Scissors,205
+2022-05-01,Daily Utility Products,Measuring Tape,281
+2022-05-01,Daily Utility Products,Screwdriver,333
+2022-05-01,Personal Care Products,Shampoo,79
+2022-05-01,Personal Care Products,Soap,176
+2022-05-01,Personal Care Products,Toothpaste,122
+2022-05-01,Personal Care Products,Hairbrush,125
+2022-05-01,Home Cleaning Supplies,Detergent,147
+2022-05-01,Home Cleaning Supplies,Mop,256
+2022-05-01,Home Cleaning Supplies,Dish Soap,88
+2022-05-01,Home Cleaning Supplies,Garbage Bags,317
+2022-06-01,Daily Electric Appliances,Electric Kettle,296
+2022-06-01,Daily Electric Appliances,Toaster,395
+2022-06-01,Daily Electric Appliances,Microwave,82
+2022-06-01,Daily Electric Appliances,Blender,228
+2022-06-01,Daily Utility Products,Utility Knife,90
+2022-06-01,Daily Utility Products,Scissors,248
+2022-06-01,Daily Utility Products,Measuring Tape,336
+2022-06-01,Daily Utility Products,Screwdriver,200
+2022-06-01,Personal Care Products,Shampoo,173
+2022-06-01,Personal Care Products,Soap,125
+2022-06-01,Personal Care Products,Toothpaste,341
+2022-06-01,Personal Care Products,Hairbrush,113
+2022-06-01,Home Cleaning Supplies,Detergent,310
+2022-06-01,Home Cleaning Supplies,Mop,227
+2022-06-01,Home Cleaning Supplies,Dish Soap,422
+2022-06-01,Home Cleaning Supplies,Garbage Bags,207
+2022-07-01,Daily Electric Appliances,Electric Kettle,241
+2022-07-01,Daily Electric Appliances,Toaster,367
+2022-07-01,Daily Electric Appliances,Microwave,141
+2022-07-01,Daily Electric Appliances,Blender,161
+2022-07-01,Daily Utility Products,Utility Knife,261
+2022-07-01,Daily Utility Products,Scissors,410
+2022-07-01,Daily Utility Products,Measuring Tape,140
+2022-07-01,Daily Utility Products,Screwdriver,76
+2022-07-01,Personal Care Products,Shampoo,123
+2022-07-01,Personal Care Products,Soap,484
+2022-07-01,Personal Care Products,Toothpaste,273
+2022-07-01,Personal Care Products,Hairbrush,400
+2022-07-01,Home Cleaning Supplies,Detergent,323
+2022-07-01,Home Cleaning Supplies,Mop,249
+2022-07-01,Home Cleaning Supplies,Dish Soap,362
+2022-07-01,Home Cleaning Supplies,Garbage Bags,341
+2022-08-01,Daily Electric Appliances,Electric Kettle,251
+2022-08-01,Daily Electric Appliances,Toaster,270
+2022-08-01,Daily Electric Appliances,Microwave,353
+2022-08-01,Daily Electric Appliances,Blender,98
+2022-08-01,Daily Utility Products,Utility Knife,425
+2022-08-01,Daily Utility Products,Scissors,167
+2022-08-01,Daily Utility Products,Measuring Tape,117
+2022-08-01,Daily Utility Products,Screwdriver,173
+2022-08-01,Personal Care Products,Shampoo,249
+2022-08-01,Personal Care Products,Soap,368
+2022-08-01,Personal Care Products,Toothpaste,343
+2022-08-01,Personal Care Products,Hairbrush,55
+2022-08-01,Home Cleaning Supplies,Detergent,147
+2022-08-01,Home Cleaning Supplies,Mop,105
+2022-08-01,Home Cleaning Supplies,Dish Soap,480
+2022-08-01,Home Cleaning Supplies,Garbage Bags,88
+2022-09-01,Daily Electric Appliances,Electric Kettle,99
+2022-09-01,Daily Electric Appliances,Toaster,314
+2022-09-01,Daily Electric Appliances,Microwave,172
+2022-09-01,Daily Electric Appliances,Blender,243
+2022-09-01,Daily Utility Products,Utility Knife,372
+2022-09-01,Daily Utility Products,Scissors,112
+2022-09-01,Daily Utility Products,Measuring Tape,66
+2022-09-01,Daily Utility Products,Screwdriver,239
+2022-09-01,Personal Care Products,Shampoo,244
+2022-09-01,Personal Care Products,Soap,317
+2022-09-01,Personal Care Products,Toothpaste,465
+2022-09-01,Personal Care Products,Hairbrush,444
+2022-09-01,Home Cleaning Supplies,Detergent,70
+2022-09-01,Home Cleaning Supplies,Mop,150
+2022-09-01,Home Cleaning Supplies,Dish Soap,320
+2022-09-01,Home Cleaning Supplies,Garbage Bags,170
+2022-10-01,Daily Electric Appliances,Electric Kettle,102
+2022-10-01,Daily Electric Appliances,Toaster,207
+2022-10-01,Daily Electric Appliances,Microwave,439
+2022-10-01,Daily Electric Appliances,Blender,320
+2022-10-01,Daily Utility Products,Utility Knife,164
+2022-10-01,Daily Utility Products,Scissors,288
+2022-10-01,Daily Utility Products,Measuring Tape,357
+2022-10-01,Daily Utility Products,Screwdriver,82
+2022-10-01,Personal Care Products,Shampoo,457
+2022-10-01,Personal Care Products,Soap,299
+2022-10-01,Personal Care Products,Toothpaste,397
+2022-10-01,Personal Care Products,Hairbrush,312
+2022-10-01,Home Cleaning Supplies,Detergent,251
+2022-10-01,Home Cleaning Supplies,Mop,170
+2022-10-01,Home Cleaning Supplies,Dish Soap,115
+2022-10-01,Home Cleaning Supplies,Garbage Bags,125
+2022-11-01,Daily Electric Appliances,Electric Kettle,393
+2022-11-01,Daily Electric Appliances,Toaster,248
+2022-11-01,Daily Electric Appliances,Microwave,346
+2022-11-01,Daily Electric Appliances,Blender,238
+2022-11-01,Daily Utility Products,Utility Knife,86
+2022-11-01,Daily Utility Products,Scissors,446
+2022-11-01,Daily Utility Products,Measuring Tape,469
+2022-11-01,Daily Utility Products,Screwdriver,112
+2022-11-01,Personal Care Products,Shampoo,368
+2022-11-01,Personal Care Products,Soap,492
+2022-11-01,Personal Care Products,Toothpaste,126
+2022-11-01,Personal Care Products,Hairbrush,68
+2022-11-01,Home Cleaning Supplies,Detergent,434
+2022-11-01,Home Cleaning Supplies,Mop,51
+2022-11-01,Home Cleaning Supplies,Dish Soap,262
+2022-11-01,Home Cleaning Supplies,Garbage Bags,255
+2022-12-01,Daily Electric Appliances,Electric Kettle,140
+2022-12-01,Daily Electric Appliances,Toaster,162
+2022-12-01,Daily Electric Appliances,Microwave,157
+2022-12-01,Daily Electric Appliances,Blender,199
+2022-12-01,Daily Utility Products,Utility Knife,128
+2022-12-01,Daily Utility Products,Scissors,319
+2022-12-01,Daily Utility Products,Measuring Tape,117
+2022-12-01,Daily Utility Products,Screwdriver,411
+2022-12-01,Personal Care Products,Shampoo,451
+2022-12-01,Personal Care Products,Soap,311
+2022-12-01,Personal Care Products,Toothpaste,76
+2022-12-01,Personal Care Products,Hairbrush,241
+2022-12-01,Home Cleaning Supplies,Detergent,461
+2022-12-01,Home Cleaning Supplies,Mop,287
+2022-12-01,Home Cleaning Supplies,Dish Soap,475
+2022-12-01,Home Cleaning Supplies,Garbage Bags,63
