@@ -31,14 +31,26 @@ def save_predictions_to_csv(predictions, filename):
     print(f"Predictions saved to {filename}")
 
 if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        print("Usage: python prediction.py [category] [item]")
+        sys.exit(1)
+
+    user_category = sys.argv[1]
+    user_item = sys.argv[2]
+
     models = load_models('aiml/model')
-    
-    for category in models:
-        print(f"\nCategory: {category}")
-        for item in models[category]:
-            predictions = make_predictions(models, category, item, steps=5)
-            print(f"\nPredictions for {item} in {category}:")
-            print(predictions)
-            print("\n")
 
+    # Debugging: print out loaded categories and items
+    print("Loaded models for categories and items:")
+    for category, items_models in models.items():
+        print(f"{category}: {list(items_models.keys())}")
 
+    if user_category in models and user_item in models[user_category]:
+        predictions = make_predictions(models, user_category, user_item, steps=12)  # Assume 12 months
+        if predictions is not None:
+            filename = f'predictions_{user_category}_{user_item}.csv'
+            save_predictions_to_csv(predictions.predicted_mean, filename)
+        else:
+            print(f"No predictions could be made for {user_category} and {user_item}.")
+    else:
+        print(f"No model found for {user_category} and {user_item}.")
