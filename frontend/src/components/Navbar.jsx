@@ -6,13 +6,11 @@ import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-container">
-    
-        <div className='navbar-item'><Link className="nav-link " to = "/Layout">Layout</Link></div>
-        <div className='navbar-item'><Link className="nav-link " to = "/Analytics">Analytics</Link></div>
-        <div className='navbar-item'><Link className="nav-link " to = "/Data_entry">Data Entry</Link></div>
-        <div className='navbar-item'><Link className="nav-link " to = "/Data_exit">Data Exit</Link></div>
-        
+      <div className="flex">
+        <Link className="w-100 p-5 text-white hover:bg-white hover:text-black grow text-center" to = "/Layout">Layout</Link>
+        <Link className="w-100 p-5 text-white hover:bg-white hover:text-black grow text-center" to = "/">Analytics</Link>
+        <Link className="w-100 p-5 text-white hover:bg-white hover:text-black grow text-center" to = "/Data_entry">Data Entry</Link>
+        <Link className="w-100 p-5 text-white hover:bg-white hover:text-black grow text-center" to = "/Data_exit">Data Exit</Link>
       </div>
     </nav>
   );

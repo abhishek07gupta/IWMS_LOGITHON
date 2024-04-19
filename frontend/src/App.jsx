@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Analytics from './components/Analytics'
-import Data_entry from './components/Data_entry'
-import Data_exit from './components/Data_exit'
-import Layout from './components/Layout'
+import Header from './components/Header'
+import Main from './components/Main'
+import Analytics from './components/Main/Analytics'
+import Data_entry from './components/Main/Data_entry'
+import Data_exit from './components/Main/Data_exit'
+import Layout from './components/Main/Layout'
 import './App.css'
 import {
   BrowserRouter as Router,
@@ -17,13 +17,9 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar/>
+        <Header />
         <Routes>
-          <Route exact path='/' element={<Analytics/>}/>
-          <Route exact path='/Analytics' element={<Analytics/>}/>
-          <Route exact path='/Data_entry' element={<Data_entry/>}/>
-          <Route exact path='/Data_exit' element={<Data_exit/>}/>
-          <Route exact path='/Layout' element={<Layout/>}/>
+          <Route exact path='/' element={<Main/>}/>
         </Routes>
  
         
