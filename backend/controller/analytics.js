@@ -1,5 +1,8 @@
 const Compartment = require('../models/compartment');
 const Item = require('../models/item');
+const { exec } = require('child_process');
+const fs = require('fs');
+const csv = require('csv-parser');
 
 
 // route : /processing/data => POST
@@ -54,8 +57,35 @@ exports.getDemandData = async (req, res, next) => {
                 item_id : item_id
             }
         });
-        console.log(item.dataValues);
-        res.status(200).json({message:"asldkjf"});
+        // console.log(item.dataValues);
+
+        const pythonScriptPath = '../aiml/src/prediction.py';
+        const modelsPath = '../aiml/model';
+        const filename = `predictions_${item.item_category}_${item.item_name}.csv`// 'predictions_{user_category}_{user_item}.csv'
+        console.log(filename);
+        exec(`python ${pythonScriptPath} "${item.item_category}" "${item.item_name}" "${modelsPath}"`, (err, stdoutpy, stderrpy) =>{
+            if(err) return console.log("\nLogging Error : ", err);
+            console.log("\nLogging Stdout : ", stdoutpy);
+            console.log("\nLogging stderr : ", stderrpy);
+            fs.readFile(filename, 'utf8', (err, data) => {
+                if (err) {
+                  console.error('Error reading CSV file:', err);
+                  return;
+                }
+                console.log(data); // This will log the contents of the CSV file as a string
+
+                const result = [];
+
+                data.trim().split('\n').forEach(line => {
+                    const [date, demand] = line.split(',');
+                    result.push({date:date, demand:demand, name:date})
+                });
+                console.log(result);
+                res.status(200).json({dateDemand : result});
+
+              });
+
+        });
     } catch (err) {
         next(err);
     }

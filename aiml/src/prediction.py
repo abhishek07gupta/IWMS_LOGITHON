@@ -37,8 +37,9 @@ if __name__ == '__main__':
 
     user_category = sys.argv[1]
     user_item = sys.argv[2]
-
-    models = load_models('aiml/model')
+    models_path = sys.argv[3]
+    print(models_path)
+    models = load_models(models_path)
 
     # Debugging: print out loaded categories and items
     print("Loaded models for categories and items:")
@@ -46,7 +47,7 @@ if __name__ == '__main__':
         print(f"{category}: {list(items_models.keys())}")
 
     if user_category in models and user_item in models[user_category]:
-        predictions = make_predictions(models, user_category, user_item, steps=12)  # Assume 12 months
+        predictions = make_predictions(models, user_category, user_item, steps=3)  # Assume 12 months
         if predictions is not None:
             filename = f'predictions_{user_category}_{user_item}.csv'
             save_predictions_to_csv(predictions.predicted_mean, filename)
